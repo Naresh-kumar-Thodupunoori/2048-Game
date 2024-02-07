@@ -8,8 +8,7 @@ const alert = document.getElementById("alert");
 createBoard();
 addRandomTile();
 addRandomTile();
-//addTileAt(2,3,1024);
-//addTileAt(2,2,1024);
+
 function createBoard() {
   for (let i=0;i<4;i++) {
     let row=[];
